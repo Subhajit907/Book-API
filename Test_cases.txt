@@ -1,0 +1,16 @@
+List classes:
+GET http://localhost:5000/classes?timezone=Asia/Tokyo
+
+Book a class:
+POST http://localhost:5000/book
+
+{
+  "class_id": 1,
+  "client_name": "Subhajit",
+  "client_email": "subhajit@example.com"
+}
+
+
+Get bookings:
+GET http://localhost:5000/bookings?email=subhajit@example.com
+
