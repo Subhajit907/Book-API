@@ -1,7 +1,7 @@
-List classes:
+-List classes:
 GET http://localhost:5000/classes?timezone=Asia/Tokyo
 
-Book a class:
+-Book a class:
 POST http://localhost:5000/book
 
 {
@@ -11,6 +11,6 @@ POST http://localhost:5000/book
 }
 
 
-Get bookings:
+-Get bookings:
 GET http://localhost:5000/bookings?email=subhajit@example.com
 
